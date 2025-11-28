@@ -2,6 +2,9 @@
 // --- ARQUIVO: pagina_principal.php ---
 
 // 1. DADOS DOS VÍDEOS (Substitui o JavaScript antigo)
+
+
+
 $videosData = [
     'video1' => ['titulo' => 'Treino Funcional Adaptado', 'desc' => 'Experiência inspiradora focada em acessibilidade e treino funcional para cadeirantes.', 'src' => 'videos/video1.mp4'],
     'video2' => ['titulo' => 'Superação na Musculação', 'desc' => 'Atleta com deficiência visual demonstrando técnica correta no supino.', 'src' => 'videos/video2.mp4'],
@@ -43,35 +46,6 @@ $url_audio = "https://translate.google.com/translate_tts?ie=UTF-8&q=" . urlencod
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Accessibility Fitness - Guia de Exercícios</title>
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    /* --- CSS ACESSIBILIDADE --- */
-    body.fonte-pequeno { font-size: 14px; }
-    body.fonte-medio   { font-size: 18px; }
-    body.fonte-grande  { font-size: 24px; }
-
-    body.tema-alto-contraste { background-color: black !important; color: yellow !important; }
-    body.tema-alto-contraste .titulo-amarelo { color: #FFD700 !important; }
-    body.tema-alto-contraste .titulo-vermelho { color: #FF4500 !important; }
-    body.tema-alto-contraste a { color: #00FF00 !important; }
-    body.tema-alto-contraste select, body.tema-alto-contraste button { 
-        background-color: #333; color: yellow; border: 1px solid yellow; 
-    }
-    body.tema-alto-contraste .video-container { border: 2px solid yellow; background: #222; }
-
-    /* Barra Superior */
-    #barra-acessibilidade { padding: 15px; background: #f4f4f4; text-align: center; border-bottom: 2px solid #ccc; margin-bottom: 20px;}
-    body.tema-alto-contraste #barra-acessibilidade { background: #000; border-bottom: 1px solid yellow; }
-    
-    .btn-acess {
-        text-decoration: none; padding: 8px 12px; background: #007bff; color: white; 
-        border-radius: 4px; margin: 0 5px; display: inline-block; font-weight: bold;
-    }
-
-    /* Utilitários */
-    .centralizado { text-align: center; }
-    .video-container { margin-top: 20px; padding: 20px; background: #f9f9f9; border-radius: 8px; border: 1px solid #ddd; }
-  </style>
 </head>
 
 <body class="pg-sobre com-barra fonte-<?php echo $tamanho_fonte; ?> tema-<?php echo $tema_atual; ?>">
@@ -176,6 +150,8 @@ $url_audio = "https://translate.google.com/translate_tts?ie=UTF-8&q=" . urlencod
   <footer class="sobre-rodape" style="text-align:center; margin-top:30px;">
     <img src="img/imagem_topo_pagina.png" alt="" style="max-width:200px;">
   </footer>
+
+      <link rel="stylesheet" href="pagina_principal.css">
 
 </body>
 </html>
