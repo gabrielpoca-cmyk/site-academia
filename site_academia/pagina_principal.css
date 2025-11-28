@@ -1,0 +1,93 @@
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center
+}
+
+strong{
+    color: blue;
+}
+
+p{
+    text-align: center
+}
+
+form{
+    text-align: center
+}
+
+nav{
+    text-align: center
+}
+
+figure{
+    text-align: center
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body.fonte-pequeno { 
+    font-size: 14px; 
+}
+
+    body.fonte-medio{ 
+    font-size: 18px; 
+}
+
+    body.fonte-grande{
+    font-size: 24px; 
+}
+
+    body.tema-alto-contraste{
+    background-color: black !important; color: white !important; 
+}
+
+    body.tema-alto-contraste .titulo-amarelo{ 
+    color: #8fa9ffff !important; 
+}
+
+    body.tema-alto-contraste .titulo-vermelho{
+    color: #8fa9ffff !important; 
+}
+
+    body.tema-alto-contraste a {
+    color: #ffffffff !important; 
+}
+
+    body.tema-alto-contraste select, body.tema-alto-contraste button{ 
+    background-color: #333; color: white; border: 1px solid blue; 
+    }
+
+    body.tema-alto-contraste .video-container{
+    border: 2px solid blue; background: #222; 
+}
+
+    /* Barra Superior */
+    #barra-acessibilidade{
+    padding: 15px; background: #f4f4f4; text-align: center; border-bottom: 2px solid #ccc; margin-bottom: 20px; z-index: 99;
+}
+
+    body.tema-alto-contraste #barra-acessibilidade{
+        background: #ffffffff; border-bottom: 1px solid rgb(255, 255, 255); 
+}
+    
+    .btn-acess {
+        text-decoration: none; padding: 8px 12px; background: #007bff; color: white; 
+        border-radius: 4px; margin: 0 5px; display: inline-block; font-weight: bold;
+}
+
+    /* Utilitários */
+    .centralizado { 
+        text-align: center; 
+}
+
+    .video-container{
+         margin-top: 20px; padding: 20px; background: #f9f9f9; border-radius: 8px; border: 1px solid #ddd; 
+}
